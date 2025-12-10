@@ -1,0 +1,19 @@
+---
+---
+
+@import "minima";
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url('helveticabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.site-nav .page-link {
+  font-family: 'HelveticaBold';
+  color: #694f40;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.3em;
+}
