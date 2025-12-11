@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {%- seo -%} <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url
+  }}"> {%- feed_meta -%} {%- if jekyll.environment == 'production' and
+  site.google_analytics -%} {%- include google-analytics.html -%} {%- endif -%}
+  {%- if page.name == 'index.markdown' -%}
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
+    integrity="sha256-FZsW7H2V5X9TGinSjjwYJ419Xka27I8XPDmWryGlWtw="
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    integrity="sha256-5uKiXEwbaQh9cgd2/5Vp6WmMnsUr3VZZw0a8rKnOKNU="
+    crossorigin="anonymous"
+  />
+  {%- endif -%}
+</head>
