@@ -24,6 +24,14 @@ footer .page-link {
   line-height: 1.3em;
 }
 
+.site-nav .page-link.active {
+  border-bottom: #694f40 solid 2px;
+}
+
+.page-link:hover {
+  text-decoration: none;
+}
+
 .site-footer nav {
   display: flex;
   justify-content: end;
