@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <style>
+      html {
+        height: 100%;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        background-image: url(../assets/landing-page-background-mobile.gif);
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+      }
+
+      .logo-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 20px;
+        padding-right: 20px;
+      }
+
+      .logo {
+        width: 50px;
+      }
+
+      .text {
+        font-size: 1.5em;
+        color: #ffffff;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+
+      .contact {
+        position: absolute;
+        bottom: 1em;
+      }
+
+      .contact a {
+        color: #ffdab8;
+        text-decoration: none;
+      }
+
+      .text,
+      .contact {
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+
+      @media screen and (min-width: 768px) {
+        html {
+          background-image: url(../assets/landing-page-background-desktop.gif);
+        }
+
+        .logo {
+          width: 100px;
+        }
+
+        .text {
+          font-size: 3.5em;
+          padding-left: 25%;
+          padding-right: 25%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="logo-container">
+      <img class="logo" src="../assets/logo-chair.png" />
+    </div>
+    <div class="text">
+      <p>We're moving to a new location on Charoenkrung 91</p>
+      <p>See you in 2027!</p>
+    </div>
+    <div class="contact">
+      <p>
+        <a href="tel:+66896667978">+66 89 666 7978</a>
+      </p>
+      <p>
+        <a href="mailto:kyo@readingroombkk.org">kyo@readingroombkk.org</a>
+      </p>
+    </div>
+  </body>
+</html>
